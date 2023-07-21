@@ -19,7 +19,7 @@ export default (appInfo: MidwayAppInfo) => {
            */
           type: 'mysql',
           // host: '150.158.2.212',
-          host: 'localhost',
+          host: '0.0.0.0',
           port: 3306,
           username: 'admin',
           password: '123456',
