@@ -6,7 +6,7 @@ export default (appInfo: MidwayAppInfo) => {
     keys: appInfo.name + '_1689311745960_1831',
     egg: {
       port: 7007,
-      hostname: 'localhost',
+      hostname: '0.0.0.0',
     },
     // security: {
     //   csrf: false,
@@ -19,7 +19,7 @@ export default (appInfo: MidwayAppInfo) => {
            */
           type: 'mysql',
           // host: '150.158.2.212',
-          host: '0.0.0.0',
+          host: 'localhost',
           port: 3306,
           username: 'admin',
           password: '123456',
